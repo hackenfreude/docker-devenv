@@ -55,5 +55,11 @@ RUN vim -c "PlugInstall" -c "qa"
 
 
 
+##### youcompleteme #####
+RUN mkdir /root/ycm_build
+RUN cd /root/ycm_build && cmake -G "Unix Makefiles" . /root/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp
+RUN cd /root/ycm_build && cmake --build . --target ycm_core
+
+
 
 CMD ["/bin/zsh"]
