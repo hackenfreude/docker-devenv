@@ -3,5 +3,5 @@ This is a Docker image with vim, screen, git, and zsh. There is customization of
 
 ## What Do I Need To Know?
 * `$ docker run --rm -it hackenfreude/devenv:latest` will run this.
-* `-e GITNAME=<your name>'` and `-e GITMAIL=<your email>` will update .gitconfig appropriately.
+* `-e GITNAME='<your name>'` and `-e GITMAIL='<your email>'` will update .gitconfig appropriately.
 * `-v $PWD:<path>` will volume mount your working directory so you can write code from within the container.
