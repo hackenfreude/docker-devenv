@@ -13,6 +13,8 @@ RUN apt-get --assume-yes install \
 	git \
 	make \
 	pkg-config \
+	python-dev \
+	python3-dev \
 	screen \
 	tree \
 	vim-gnome \
