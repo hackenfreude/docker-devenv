@@ -9,6 +9,7 @@ RUN apt-get --assume-yes install \
 	curl \
 	ctags \
 	git \
+	make \
 	screen \
 	vim-gnome \
 	zsh
