@@ -11,6 +11,7 @@ RUN apt-get --assume-yes install \
 	ctags \
 	git \
 	make \
+	pkg-config \
 	screen \
 	tree \
 	vim-gnome \
