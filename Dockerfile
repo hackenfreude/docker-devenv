@@ -11,6 +11,7 @@ RUN apt-get --assume-yes install \
 	git \
 	make \
 	screen \
+	tree \
 	vim-gnome \
 	zsh
 
