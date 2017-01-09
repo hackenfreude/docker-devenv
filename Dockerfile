@@ -7,6 +7,7 @@ FROM debian:jessie-slim
 RUN apt-get update && apt-get --assume-yes upgrade
 RUN apt-get --assume-yes install \
 	build-essential \
+	cmake \
 	curl \
 	ctags \
 	git \
