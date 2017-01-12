@@ -20,7 +20,6 @@ RUN apt-get --assume-yes install \
 	screen \
 	tree \
 	vim-gnome \
-	yamllint \
 	zsh
 
 RUN pip install \
