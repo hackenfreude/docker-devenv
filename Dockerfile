@@ -15,12 +15,16 @@ RUN apt-get --assume-yes install \
 	pkg-config \
 	python-dev \
 	python3-dev \
+	python-pip \
 	jq \
 	screen \
 	tree \
 	vim-gnome \
+	yamllint \
 	zsh
 
+RUN pip install \
+	yamllint
 
 
 ##### zsh #####
