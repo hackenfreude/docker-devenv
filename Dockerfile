@@ -15,6 +15,7 @@ RUN apt-get --assume-yes install \
 	pkg-config \
 	python-dev \
 	python3-dev \
+	jq \
 	screen \
 	tree \
 	vim-gnome \
