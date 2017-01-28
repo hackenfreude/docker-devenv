@@ -20,6 +20,7 @@ RUN apt-get --assume-yes install \
 	screen \
 	tree \
 	vim-gnome \
+	wget \
 	zsh
 
 RUN pip install \
