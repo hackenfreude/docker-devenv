@@ -13,6 +13,7 @@ RUN apt-get --assume-yes install \
 	git \
 	make \
 	pkg-config \
+	procps \
 	python-dev \
 	python3-dev \
 	python-pip \
