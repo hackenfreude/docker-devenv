@@ -1,9 +1,9 @@
-FROM debian:jessie-slim
+FROM debian:stretch-20171009
 
 
 
 #### packages ####
-RUN apt-get update && apt-get --assume-yes upgrade
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get --assume-yes upgrade
 RUN apt-get --assume-yes install \
 	build-essential \
 	cmake \
